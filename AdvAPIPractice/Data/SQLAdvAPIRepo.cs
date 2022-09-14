@@ -1,6 +1,7 @@
 ﻿using AdvAPIPractice.Models;
 using AdvAPIPractice.Services;
 using Microsoft.AspNetCore.Http.Features;
+using System;
 
 namespace AdvAPIPractice.Data
 {
@@ -15,12 +16,24 @@ namespace AdvAPIPractice.Data
 
         public void CreateAdvertiser(Advertiser advertiser)
         {
-            throw new NotImplementedException();
+            if (advertiser == null)
+            {
+                throw new ArgumentNullException(nameof(advertiser));
+            }
+
+            _context.Advertisers.Add(advertiser);
+            _context.SaveChanges();
         }
 
         public void DeleteAdvertiser(Advertiser advertiser)
         {
-            throw new NotImplementedException();
+            if (advertiser == null)
+            {
+                throw new ArgumentNullException(nameof(advertiser));
+            }
+
+            _context.Advertisers.Remove(advertiser);
+            _context.SaveChanges();
         }
 
         public Advertiser GetAdvertiserById(int id)
