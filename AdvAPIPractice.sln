@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvAPIPractice", "AdvAPIPractice\AdvAPIPractice.csproj", "{7984945D-43D5-481B-9DD4-0A1C0EAC6D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7984945D-43D5-481B-9DD4-0A1C0EAC6D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7984945D-43D5-481B-9DD4-0A1C0EAC6D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7984945D-43D5-481B-9DD4-0A1C0EAC6D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7984945D-43D5-481B-9DD4-0A1C0EAC6D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E94531-6871-4DE3-A55B-BD19B52C1704}
+	EndGlobalSection
+EndGlobal
